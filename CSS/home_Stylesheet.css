@@ -1,0 +1,74 @@
+body{
+    background-color: #001233;
+}
+header>nav>a {
+    color: #CAC0B3;
+    margin: 1vw;
+    text-decoration: none;
+}
+header>nav{
+    position: absolute;
+    right: 0;
+}
+header{
+    position: sticky;
+    top: 20px;
+}
+
+#div2>img{
+    border-radius: 100%;
+    margin-left: 4vw;
+}
+body>section>div:nth-child(2){
+    color: white;
+    position: absolute;
+    right: 4vw;
+    top: 6vw;
+    font-size: 2.2vw;
+}
+body>section>div:nth-child(2)>h1{
+    color: #FF595A;
+}
+body>section>div:nth-child(2)>a>button{
+    margin-top: 2vw;
+    color: red;
+    font-size: 1.5vw;
+}
+body>footer{
+    background-color: #C5C6C7;
+}
+body>footer>div>div:first-child{
+    position: relative;
+    top: 2vw;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+body>footer>div>div:first-child>h3{
+    position: relative;
+    display: inline;
+}
+body>footer>div>div:nth-child(2){
+    position: absolute;
+    right: 3vw;
+    bottom:  -3vw;
+    font-size: 1.5vw;
+}
+body>footer>div>div:nth-child(2)>h3{
+    position: relative;
+    display: inline;
+}
+body>footer>div>div:nth-child(3){
+    position: relative;
+    top: 2vw;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+body>footer>div>div:nth-child(3)>h3{
+    position: relative;
+    display: inline;
+}
+body>footer>div>div:last-child{
+    position: absolute;
+    top: 51vw;
+    right: 3vw;
+}

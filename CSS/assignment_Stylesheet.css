@@ -1,0 +1,57 @@
+
+body{
+    background-color: #001233;
+}
+header>nav>a {
+    color: #CAC0B3;
+    margin: 1vw;
+    text-decoration: none;
+}
+header>nav{
+    position: absolute;
+    right: 0;
+}
+header{
+    position: sticky;
+    top: 20px;
+}
+#A1{
+    margin-top: 2vw;
+}
+#A1>a>#b1{
+    position: absolute;
+    margin-left: 10vw;
+    color: red;
+    bottom: 20vw;
+}
+#A1>a>#b2{
+    position: absolute;
+    color: darkred;
+    top: 26vw;
+    right: 33.8vw;
+}
+#A2>a>#b3{
+    position: absolute;
+    color: red;
+    bottom: -23vw;
+    margin-left: 10vw;
+}
+#A2>a>#b4{
+    color: darkred;
+    position: absolute;
+    bottom: -27vw;
+    left: 57vw;
+}
+#A3>a>#b5{
+    color: red;
+    position: absolute;
+    bottom: -73vw;
+    right: 30vw;
+
+}
+#A3>a>#b6{
+    position: absolute;
+    color: darkred;
+    right: 33.5vw;
+    bottom: -76vw;
+}

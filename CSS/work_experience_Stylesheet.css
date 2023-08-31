@@ -1,0 +1,48 @@
+
+body{
+    background-color: #001233;
+}
+header>nav>a {
+    color: #CAC0B3;
+    margin: 1vw;
+    text-decoration: none;
+}
+header>nav{
+    position: absolute;
+    right: 0;
+}
+header{
+    position: sticky;
+    top: 20px;
+}
+#w1{
+    margin-top: 2vw;
+    color: white;
+    margin-left: 5vw;
+}
+#w1>p{
+    margin-left: 50vw;
+    font-size: 2vw;
+    margin-top: -30vw;
+}
+#w2>img{
+    margin-left:50vw ;
+    margin-top: 15vw;
+}
+#w2>p{
+    color: white;
+    font-size: 2vw;
+    margin-left: 8vw;
+    margin-top: -30vw;
+}
+#w3{
+    margin-top: 15vw;
+}
+#w3>p{
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    right: 5vw;
+    /*bottom: 0;*/
+    top: 120vw;
+}
