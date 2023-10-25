@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--    <meta charset="UTF-8">-->
-<!--    <title>Web Application</title>-->
-<!--    <link rel="icon" type="image/x-icon" href="assets\favicon.ico">-->
-<!--    <meta name="keyword"> content="java,html,css">-->
-<!--    <meta name="descripotion"> content="sri lanka">-->
-<!--    <meta name="author" content="il=jse" >-->
-<!--    <meta http-equiv="refresh" content="40"/>-->
-<!--    <meta name="viewport" content="width=device-width",initial-scale="1"/>-->
-<!--    <br>-->
+    <meta charset="UTF-8">
+    <title>Web Application</title>
+    <link rel="icon" type="image/x-icon" href="assets\favicon.ico">
+    <meta name="keyword">
+    <meta name="descripotion">
+    <meta name="author" content="il=jse" >
+    <meta http-equiv="refresh" content="40000"/>
+    <meta name="viewport" content="width=device-width",initial-scale="1"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trirong&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/normalize/normalize.css">
     <link rel="stylesheet" href="CSS/home_Stylesheet.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../lib/Hover-master/Hover-master/css/hover.css">
+
 </head>
 <body>
-<br>
 <header>
-    <nav>
-        <a href="http://localhost:63342/MyPortfolio/Portfolio/index.html?_ijt=s3l3ju2j4fmmsu1s03g687nfha" target="_blank" ><u>Home</u></a>
+    <nav id="nav1">
+        <a href="index.html" target="_blank" >Home</a>
         <a href="http://localhost:63342/MyPortfolio/Portfolio/About%20Me.html?_ijt=s3l3ju2j4fmmsu1s03g687nfha" target="_blank">About Me</a>
         <a href="http://localhost:63342/MyPortfolio/Portfolio/Gallery.html?_ijt=s3l3ju2j4fmmsu1s03g687nfha" target="_blank">Gallery</a>
         <a href="http://localhost:63342/MyPortfolio/Portfolio/Projects.html?_ijt=s3l3ju2j4fmmsu1s03g687nfha" target="_blank">Projects</a>
@@ -26,49 +36,82 @@
         <a href="http://localhost:63342/MyPortfolio/Portfolio/Assignment.html?_ijt=s3l3ju2j4fmmsu1s03g687nfha" target="_blank">Assignment</a>
     </nav>
 </header>
-<br>
-<section>
-<div id="div2">
-<img src="assets/ashan.jpeg" alt="" width="400" >
+
+<section id="l10">
+<div id="div2" >
+<img  src="assets/ashan.jpeg" alt="" width="400" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"> >
 </div>
 
 <div id="div1">
-    <h1>Ashan Devinda</h1>
-    <p>Hello, I am Ashan Devinda, a trainee software engineer.</p>
-    <a href="assets/CV/Screenshot%202023-08-09%20212941.png" target="_blank" download><button>DOWNLOAD CV</button></a>
+    <h1 data-text="Ashan Devinda...">Ashan Devinda</h1>
+    <p id="text1">Hello, I am Ashan Devinda, a trainee software engineer.</p>
+    <a href="assets/CV/Screenshot%202023-08-09%20212941.png" target="_blank" download id="ani1">
+        <span></span>
+        <span ></span>
+        <span></span>
+        <span></span>
+        Download CV
+    </a>
 </div>
 </section>
-<br>
-<footer id="div3">
-    <div>
-        <div>
-        <img src="assets/icons8-call-30%20(1).png" alt="">
-        <h3>Contact</h3>
-        <h4>0787535702</h4>
-        <br>
-        </div>
-        <div>
-        <img src="assets/icons8-email-24.png"alt="">
-        <h3 >Email</h3>
-        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><h5>ashandevinda656@gmail.com</h5></a>
-        <br>
-        </div>
-        <div>
-        <img src="assets/icons8-address-24.png" alt="">
-        <h3>Address</h3>
-        <h4>No 02,Rajamawatha,Dimbulagala,Polonnaruwa</h4>
-        <br>
-        </div>
-        <div>
-        <a href="https://web.facebook.com/"target="_blank"> <img src="assets/icons8-facebook-48%20(2).png" alt=""></a>
-        <a href="https://wa.me/+94787535702" target="_blank"> <img src="assets/icons8-whatsapp-48%20(1).png "  alt=""></a>
-        <a href="https://twitter.com/home" target="_blank"><img src="assets/icons8-twitter-48%20(1).png" alt=""></a>
-        <a href="https://www.tiktok.com/foryou?lang=en" target="_blank"><img src="assets/icons8-tiktok-50.png" alt=""></a>
-        <a href="https://www.linkedin.com/messaging/thread/new/" target="_blank"><img src="assets/icons8-linkedin-50.png" alt=""></a>
-        <a href="https://github.com/AshanDevinda/MyPortfolio" target="_blank"><img src="assets/icons8-github-50.png" alt=""></a>
-        </div>
-    </div>
+
+<footer>
+        <span id="fs1">Contact Me : </span>
+        <span id="fs2">+94787535702 </span>
+        <span id="fs6">0273008001</span>
+        <span id="fs3">E-mail</span>
+        <span id="fs7">ashandevinda62@gmail.com</span>
+        <span id="fs5">No 02, Rajamawatha, Dimbulagala, Polonnaruwa</span>
+         <img src="assets/Footer/add.png" alt="" id="fs4">
+    <section id="fi">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="assets/icons8-facebook-48%20(2).png" alt="" class="hvr-back-puls" id="fi1"></a>
+        <a href="https://wa.me/+94787535702"><img src="assets/icons8-whatsapp-48%20(1).png" alt="" id="fi2"></a>
+        <a href="https://github.com/AshanDevinda"><img src="assets/icons8-github-50.png" alt="" id="fi3"></a>
+        <a href="https://twitter.com/home"><img src="assets/icons8-twitter-48%20(1).png" alt="" id="fi4"></a>
+        <a href="https://www.tiktok.com/foryou?lang=en"><img src="assets/home/tiktok.png" alt="" id="fi5"></a>
+    </section>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
+
+
+
+
+<!--<footer id="div3">-->
+<!--    <div>-->
+<!--        <div id="res1">-->
+<!--        <img src="assets/icons8-call-30%20(1).png" alt="">-->
+<!--        <h3>Contact</h3>-->
+<!--        <h4>0787535702</h4>-->
+<!--        <br>-->
+<!--        </div>-->
+<!--        <div id="res2">-->
+<!--        <img src="assets/icons8-email-24.png"alt="">-->
+<!--        <h3 >Email</h3>-->
+<!--        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><h5>ashandevinda656@gmail.com</h5></a>-->
+<!--        <br>-->
+<!--        </div >-->
+<!--        <div id="res3">-->
+<!--        <img src="assets/icons8-address-24.png" alt="">-->
+<!--        <h3>Address</h3>-->
+<!--        <h4>No 02, Rajamawatha, Dimbulagala, Polonnaruwa</h4>-->
+<!--        <br>-->
+<!--        </div>-->
+<!--        <div id="res4">-->
+<!--        <a href="https://web.facebook.com/"target="_blank"> <img src="assets/icons8-facebook-48%20(2).png" alt=""></a>-->
+<!--        <a href="https://wa.me/+94787535702" target="_blank"> <img src="assets/icons8-whatsapp-48%20(1).png "  alt=""></a>-->
+<!--        <a href="https://twitter.com/home" target="_blank"><img src="assets/icons8-twitter-48%20(1).png" alt=""></a>-->
+<!--        <a href="https://www.tiktok.com/foryou?lang=en" target="_blank"><img src="assets/icons8-tiktok-50.png" alt=""></a>-->
+<!--        <a href="https://www.linkedin.com/messaging/thread/new/" target="_blank"><img src="assets/icons8-linkedin-50.png" alt=""></a>-->
+<!--        <a href="https://github.com/AshanDevinda/MyPortfolio" target="_blank"><img src="assets/icons8-github-50.png" alt=""></a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
